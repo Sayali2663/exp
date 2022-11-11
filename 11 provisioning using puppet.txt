@@ -1,0 +1,62 @@
+AIM: To learn software configuration Management and provisioning using Puppet.
+
+THEORY:
+Configuration Management?
+Configuration Management is the process of maintaining systems, such as computer 
+hardware and software, in a desired state. Configuration Management (CM) is also a 
+method of ensuring that systems perform in a manner consistent with expectations over time.
+
+What is Puppet?
+Puppet is a tool that helps you manage and automate the configuration of servers. When you use Puppet, 
+you define the desired state of the systems in your infrastructure that you want to manage.
+Puppet is specially designed to manage the configuration of Linux and Windows systems. It is
+written in Ruby and uses its unique Domain Specific Language (DSL) to describe system
+configuration.
+
+Puppet Blocks
+Puppet provides the flexibility to integrate Reports with third-party tools using Puppet APIs.
+Four types of Puppet building blocks are
+1. Resources
+2. Classes
+3. Manifest
+4. Modules
+
+Puppet Resources:
+Resources are the fundamental unit for modeling system configurations. Each resource describes 
+some aspect of a system, like a specific service or package. A resource declaration is an expression 
+that describes the desired state for a resource and tells Puppet to add it to the catalog.
+
+Puppet Classes:
+In Puppet, classes are code blocks that can be called in a code elsewhere. Using classes 
+allows you reuse Puppet code, and can make reading manifests easier.
+
+Class Definition
+A class definition is where the code that composes a class lives. Defining a class makes 
+the class available to be used in manifests, but does not actually evaluate anything.
+
+Class Declaration
+A class declaration occurs when a class is called in a manifest. A class declaration tells 
+Puppet to evaluate the code within the class. Class declarations come in two different 
+flavors: normal and resource-like.
+
+Puppet Manifest:
+Manifest is a directory containing puppet DSL files. Those files have a .pp extension. 
+The .pp extension stands for puppet program. The puppet code consists of 
+definitions or declarations of Puppet Classes.
+Puppet programs are called manifests. Manifests are composed of puppet code and their 
+filenames use the .pp extension. The default main manifest in Puppet installed via apt
+is /etc/puppet/manifests/site.pp.
+
+Puppet Modules:
+A module is a collection of manifests and data (such as facts, files, and templates), 
+and they have a specific directory structure. Modules are useful for organizing your Puppet code, 
+because they allow you to split your code into multiple manifests. It is considered best practice 
+to use modules to organize almost all of your Puppet manifests.
+
+To add a module to Puppet, place it in the /etc/puppet/modules directory. 
+They are the re-usable and sharable units in Puppet.
+
+
+Conclusion:
+In this experiment we learned the basics of Puppet code, 
+and are able to write basic manifests and modules.

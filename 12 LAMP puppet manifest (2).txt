@@ -1,0 +1,47 @@
+Aim:- To provision a LAMP/MEAN Stack using Puppet Manifest.
+
+Theory:-
+Puppet is a powerful open-source configuration management tool that can be used to deploy, 
+configure, manage, and maintain a server while accessing it remotely. Puppet is written in 
+Ruby and helps you to deploy and manage a single server – all the way up to thousands of 
+physical and virtual servers – all from a central location.
+Puppet modules are collections of manifest files and data that allow Puppet to load and find classes, 
+facts, functions, defined types, and tasks. With Puppet modules, you can install and update packages, 
+create files and directories, and/or make any configuration changes quickly and easily. It aims to perform 
+and automate almost any task, such as launching a LAMP environment, setting up virtual hosts, etc.
+
+
+Developing a Manifest
+To demonstrate how to write a Puppet manifests, classes, and modules, we will use Puppet to set up LAMP stack on Ubuntu
+we know that we want an Ubuntu 20.04 server with the following resources:
+Apache package (apache2) installed
+Apache service (apache2) running
+MySQL Server package (mysql-server) installed
+MySQL Server service (mysql) running
+PhP5 package (php5) installed
+A test PHP script file (info.php)
+Update apt before installing packages
+
+Implementation and Output:-
+Install LAMP with a Single Manifest
+The manifest will be developed on a Puppet agent node, 
+and executed via puppet apply, so an agent/master setup is not required.
+
+Create Manifest
+sudo vi /etc/puppet/manifests/lamp.pp
+
+Apply Manifest
+
+Now you will want to use the puppet apply command to execute the manifest. On lamp-1, run this:
+
+sudo puppet apply --test
+
+You will see many lines of output that show how the state of your server is changing, 
+to match the resource declarations in your manifest. If there were no errors, you should be able 
+to visit the public IP address (or domain name, if you set that up), and see the PHP info page that 
+indicates that Apache and PHP are working. You can also verify that MySQL was installed on your server. 
+Congrats! You set up a LAMP stack with Puppet
+
+Conclusion
+So in this practical we have succesfully provisioned a LAMP/MEAN Stack using Puppet Manifest.
+

@@ -1,0 +1,73 @@
+Aim:- To Build the pipeline of jobs using Maven / Gradle / Ant in Jenkins, 
+create a pipeline script to Test and deploy an application over the tomcat server.
+
+Jenkins Pipeline
+
+In Jenkins, a pipeline is a collection of events or jobs 
+which are interlinked with one another in a sequence.
+It is a combination of plugins that support the integration
+and implementation of continuous delivery pipelines using Jenkins.
+
+In other words, a Jenkins Pipeline is a collection of jobs 
+or events that brings the software from version control 
+into the hands of the end users by using automation tools. 
+It is used to incorporate continuous delivery in our software 
+development workflow.
+A pipeline has an extensible automation server for creating 
+simple or even complex delivery pipelines "as code", via DSL 
+(Domain-specific language).
+
+What is Continuous Delivery Pipeline?
+
+In a Jenkins Pipeline, every job has some sort of dependency 
+on at least one or more jobs or events.
+A continuous delivery pipeline is an automated expression 
+to show your process for getting software for version control. 
+Thus, every change made in your software goes through a number 
+of complex processes on its manner to being released. 
+It also involves developing the software in a repeatable and 
+reliable manner, and progression of the built software through 
+multiple stages of testing and deployment.
+ 
+JenkinsFile
+
+Jenkins Pipeline can be defined by a text file called JenkinsFile.
+You can implement pipeline as code using JenkinsFile, and this 
+can be defined by using a DSL (Domain Specific Language). 
+With the help of JenkinsFile, you can write the steps required 
+for running a Jenkins Pipeline.
+
+The benefits of using JenkinsFile are:
+
+•You can make pipelines automatically for all branches and 
+can execute pull requests with just one JenkinsFile.
+•You can review your code on the pipeline.
+•You can review your Jenkins pipeline.
+•This is the singular source for your pipeline and can be 
+customized by multiple users.
+JenkinsFile can be defined by using either Web UI or with a 
+JenkinsFile.
+
+TO install jenkins
+browser mdhe jenkins download takaych nntr select karaych 
+ubuntu debian tya saglya commands copy krun paste karaycha terminal mdhe 
+te zala ki browser la localhost:8080 takaych tikde ek password mangtil 
+to pass sathi tikdhcha path copy karaycha aani to 
+terminal mdhe ek command takaychi 
+sudo cat ani to path
+tikde pass yeil to tkaycha browser cha window la  ani plugin install karayche
+
+
+Now we will build Maven project using Jenkins:
+Step 1: Create a new maven project with name maven_job
+Step 2: Now configure it.
+Step 3: After configuration we will click on build now.
+Step 4: Now we will create pipeline with name PipelineTomcatDeployment1.
+Step 5: To configure we will click on pipeline and type following code in script.
+Step 6: Click on build now and get the output
+Step 7: click on pipeline syntax
+Step 8: Add credentials
+Step 9: After getting link from pipeline script we will post it into pipeline.
+Step 10: Pipeline is created.
+
+

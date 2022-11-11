@@ -1,0 +1,55 @@
+Aim:- To understand DevOps: Principles, Practices, and DevOps Engineer Role
+and Responsibilities.
+
+Theory:-
+What is DevOps?
+DevOps stands for development and operations. It’s a practice that aims at merging
+development, quality assurance, and operations (deployment and integration) into a
+single, continuous set of processes. This methodology is a natural extension of Agile
+and continuous delivery approaches.
+
+DevOps principles:-
+Constant collaboration and communication:- These have been the building blocks of DevOps since its dawn. 
+Your team should work cohesively with the understanding of the needs and expectations of all members.
+Gradual changes:- The implementation of gradual rollouts allows delivery teams to release a product to 
+users while having an opportunity to make updates and roll back if something goes wrong.
+Shared end-to-end responsibility:- When every member of a team moves towards one goal and is equally 
+responsible for a project from beginning to end, they work cohesively and look for ways of facilitating other members’ tasks
+Early problem-solving:- DevOps requires that tasks be performed as early in the project lifecycle as possible. 
+So, in case of any issues, they will be addressed more quickly.
+
+DevOps Practices:- 
+Agile planning:- In contrast to traditional approaches of project management, Agile planning organizes work in short 
+iterations (e.g. sprints) to increase the number of releases. 
+Continuous development:- The concept of continuous “everything” embraces continuous or iterative software development,
+ meaning that all the development work is divided into small portions for better and faster production. 
+Continuous integration and continuous delivery (CI/CD):- The code that passes automated tests is integrated in a single, 
+shared repository on a server. 
+Continuous deployment:- At this stage, the code is deployed to run in production on a public server. 
+Continuous monitoring:- The final stage of the DevOps lifecycle is oriented to the assessment of the whole cycle. 
+The goal of monitoring is detecting the problematic areas of a process and analyzing the feedback from the team and users to 
+report existing inaccuracies and improve the product’s functioning.
+Infrastructure as a code:- Infrastructure as a code (IaC) is an infrastructure management approach that makes continuous delivery 
+and DevOps possible. 
+A DevOps Engineer: role and responsibilities
+So, the title of a DevOps Engineer is an arguable one. Nonetheless, DevOps engineers are still in demand on the IT labor market. 
+Some consider this person to be either a system administrator who knows how to code or a developer with a system administrator’s skills.
+
+DevOps engineer responsibilities
+In a way, both definitions are fair. The main function of a DevOps engineer is to introduce the continuous delivery and continuous integration workflow, 
+which requires the understanding of the mentioned tools and the knowledge of several programming languages.
+Depending on the organization, job descriptions differ. Smaller businesses look for engineers with broader skillsets and responsibilities. 
+
+DevOps Engineer Role and Requirements:-
+The basic and widely-accepted responsibilities of a DevOps engineer are:
+Writing specifications and documentation for the server-side features
+Continuous deployment and continuous integration (CI/CD) management
+Performance assessment and monitoring
+Infrastructure management
+Cloud deployment and management
+Assistance with DevOps culture adoption
+Additionally, a DevOps engineer can be responsible for IT infrastructure maintenance and management, which comprises hardware, 
+software, network, storages, virtual and remote assets, and control over cloud data storage
+
+
+Conclusion:- We are able to understand DevOps: Principles, Practices, and DevOps Engineer Role and Responsibilities.

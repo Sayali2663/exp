@@ -1,0 +1,28 @@
+Docker is an Open source containerization platform.
+It enables developers to package applications into containers—standardized executable
+components combining application source code with the operating system (OS) 
+libraries and dependencies required to run that code in any environment.
+Containers simplify delivery of distributed applications and have become 
+increasingly popular as organizations shift to cloud-native development 
+and hybrid multi cloud environments.
+
+
+lifecycle of docker container
+
+•	Created: A container that has been created but not started
+•	Running: A container running with all its processes
+•	Paused: A container whose processes have been paused
+•	Stopped: A container whose processes have been stopped
+•	Deleted: A container in a dead state
+
+
+for install docker- sudo apt install docker.io
+docker --version
+
+for image search =sudo docker search hello-world
+for install image= sudo docker pull hello-world
+for view image= sudo docker images
+for deleteing images= sudo docker image rm hello-world
+if eror then write
+sudo docker images rm-f hello-world
+ 

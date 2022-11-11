@@ -1,0 +1,110 @@
+Aim :- To Perform various GIT operations on local and Remote
+repositories using GIT Cheat-Sheet.
+
+Theory :
+
+Git is the most commonly used version control system. 
+Git tracks the changes you make to files, so you have a record
+of what has been done, and you can revert to specific versions 
+should you ever need to. Git also makes collaboration easier, 
+allowing changes by multiple people to all be merged into one source.
+Git is software that runs locally. Our files and their history are 
+stored on our computer. We can also use online hosts 
+(such as GitHub or Bitbucket) to store a copy of the files and 
+their revision history.Git can automatically merge the changes, 
+so two people can even work on different parts of the same file 
+and later merge those changes without losing each other’s work!
+
+Git Repositories
+
+A Git repository contains all of the project files and the entire 
+revision history. You’ll take an ordinary folder of files (such as a 
+website’s root folder), and tell Git to make it a repository. 
+This creates a .git subfolder, which contains all of the Git metadata 
+for tracking changes.
+
+
+Stage & Commit Files
+
+Before we make a commit, we must tell Git what files we want to commit. 
+This is called staging and uses the add command. Let’s say you’re 
+working on a two files, but only one of them is ready to commit. 
+You don’t want to be forced to commit both files, just the one that’s 
+ready. That’s where Git’s add command comes in. We add files to a 
+staging area, and then we commit the files that have been staged.
+
+
+Remote Repositories (on GitHub & Bitbucket) 
+
+Storing a copy of your Git repo with an online host (such as 
+GitHub or Bitbucket) gives you a centrally located place where you 
+can upload your changes and download changes from others, letting you 
+collaborate more easily with other developers. After you have a 
+remote repository set up, you upload (push) your files and revision 
+history to it. After someone else makes changes to a remote repo, you 
+can download (pull) their changes into your local repo.
+
+Branches & Merging
+
+Git lets you branch out from the original code base. This lets 
+you more easily work with other de-velopers, and gives you a lot 
+of flexibility in your workflow. Here’s an example of how Git 
+branches are useful. Let’s say you need to work on a new feature 
+for a website. You create a new branch and start working. You haven’t 
+finished your new feature, but you get a request to make a rush change 
+that needs to go live on the site today. You switch back to the 
+master branch, make the change, and push it live. Then you can 
+switch back to your new feature branch and finish your work. 
+When you’re done, you merge the new feature branch into the master 
+branch and both the new feature and rush change are kept!
+
+Pull Requests
+
+Pull requests are a way to discuss changes before merging 
+them into your codebase. Let’s say you’re managing a project. 
+A developer makes changes on a new branch and would like to 
+merge that branch into the master. They can create a pull 
+request to notify you to review their code. You can discuss 
+the changes, and decide if you want to merge it or not.
+
+Push Requests
+
+The git push command is used to upload local repository content 
+to a remote repository. Pushing is how you transfer commits 
+from your local repository to a remote repo. It's the counterpart 
+to git fetch, but whereas fetching imports commits to local 
+branches, pushing exports commits to remote branches. 
+Remote branches are configured using the git remote command. 
+Pushing has the potential to overwrite changes, caution should 
+be taken when pushing. These issues are discussed below.
+
+IMPLEMENTATION
+on browser put git cheat sheet
+mkdir folder ch nav
+cd folder name
+git init
+touch file {1..10}.txt
+git add .
+git status
+git commit -m "initial commit"
+
+Now go to github & crate empty repsitory
+*read.me file nay takaychi*
+git branch -m main
+git remote add origin "https://github.com..(navin repo chi url)"
+git push origin main
+git hub username-
+password - put token
+git checkout -b newbranch
+git branch
+touch newfile
+ls
+git add newfile
+git commit -m "added newfile to newbranch"
+git checkout main
+git merge newbranch
+git push -u newbranch
+
+
+
+

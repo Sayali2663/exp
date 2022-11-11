@@ -1,0 +1,72 @@
+Jenkins is one of the most important tools in DevOps. Jenkins is used in the Continuous 
+Integration stage of DevOps.
+
+Advantages of Jenkins include:
+
+•	It is an open-source tool with great community support.
+•	Too easy to install.
+•	It has 1000+ plugins to ease your work. If a plugin does not exist, you can code
+ it and share it with the community.
+•	It is free of cost.
+•	It is built with Java and hence, it is portable to all the major platforms.
+
+Jenkins Distributed Architecture
+Jenkins uses a Master-Slave architecture to manage distributed builds. 
+In this architecture, Master and Slave communicate through TCP/IP protocol.
+
+Jenkins Master
+
+Your main Jenkins server is the Master. The Master’s job is to handle:
+
+•	Scheduling build jobs.
+•	Dispatching builds to the slaves for the actual execution.
+•	Monitor the slaves (possibly taking them online and offline as required).
+•	Recording and presenting the build results.
+•	A Master instance of Jenkins can also execute build jobs directly.
+
+Jenkins Slave
+A Slave is a Java executable that runs on a remote machine. Following are the 
+characteristics of Jenkins Slaves:
+
+•	It hears requests from the Jenkins Master instance.
+•	Slaves can run on a variety of operating systems.
+•	The job of a Slave is to do as they are told to, which involves executing
+ build jobs dispatched by the Master.
+•	You can configure a project to always run on a particular Slave machine or 
+a particular type of Slave machine, or simply let Jenkins pick the next available Slave
+
+How Jenkins Master and Slave Architecture works?
+Now let us look at an example in which we use Jenkins for testing in different
+ environments like Ubuntu, MAC, Windows, etc.
+•	Jenkins checks the Git repository at periodic intervals for any changes made in
+ the source code.
+•	Each builds requires a different testing environment which is not possible for 
+a single Jenkins server. In order to perform testing in different environments, Jenkins
+ uses various Slaves as shown in the diagram.
+•	Jenkins Master requests these Slaves to perform testing and to generate test 
+reports.
+
+
+steps to perform
+go to manage jenkins
+click on manage node and cloud
+new node 
+permemnt agent select check box
+description add karaych no of executors 2 
+remote root directory =folder chi path
+mkdir xyz folder create karaycha cd xyx pwd krun path copy karycha
+label name same as folder
+usage only build jobs with label expression
+
+launch method 
+custom directory path =same path
+use websocket click check box click on save click on folder name 
+commands yetil tya as it is copy krun paste karaycha 
+refresh karaych dashboard
+new item select maven project
+and give name click on ok 
+give description click restrict where this project can be run label cha nav dyaych
+git click 
+same procedure 4th exp sarkhi repository link takaychi...............
+
+

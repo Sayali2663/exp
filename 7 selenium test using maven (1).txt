@@ -1,0 +1,52 @@
+Aim:- To Setup and Run Selenium Tests in Jenkins Using Maven.
+
+What is Selenium in Devops?
+
+As a part of the UI testing team, Selenium test developers 
+need to synchronize and orchestrate their test design and 
+execution as per schedule and triggers, that are defined 
+in their continuous integration or continuous delivery 
+tools or platforms.
+
+Test Design needs to be more agile, effortless, and 
+error-free. There is a shift towards the enhancement of 
+existing or new test automation frameworks to integrate 
+with continuous integration/continuous delivery pipelines seamlessly.
+
+Moreover, organizations are leveraging Machine Learning 
+and AI to address the challenges concerning the complexities 
+and scale in testing environments. Enterprises are 
+exploring AI research areas such as Computer Vision and 
+Natural language processing to address the challenges.
+
+What is Selenium ?
+
+Selenium is an open source automation tool that has been 
+widely used for testing web applications. It is easy to 
+use, and it provides support forums, which makes it popular 
+among the testing community. Selenium has four main 
+components:Selenium IDE, Selenium RC, Selenium WebDriver, 
+and Selenium Grid, designed and used for different purposes. 
+Selenium provides cross-browser testing and parallel testing 
+features, which allows the testers to execute their test 
+cases in different operating systems andbrowsers, 
+which ensures browser compatibility of the web application.
+This Jenkins Tutorial for beginners and professionals will 
+help you learn how to use Jenkins, one of the most 
+popular CI/CD tools used in DevOps.
+
+Why to use maven in selenium project?
+
+It will manage your Selenium test project's build compilation, 
+documentation and other related project tasks itself. It helps 
+to create proper project structure,add and manage jar files 
+in project's build path. It easily guides the project by 
+gathering current principles for best practices development.
+
+Now let’s Build Job for Selenium using maven
+Step 1: Click on new item, Give name to job and select 
+maven project and then press on ok.
+Step 2: configure the job
+Step 3: After configuration click on Build now.
+
+
